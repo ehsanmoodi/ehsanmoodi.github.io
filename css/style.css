@@ -1,0 +1,59 @@
+body {
+    font-family: iransans, serif !important;
+}
+
+h1 {
+    font-family: iransans, serif !important;
+}
+
+h2 {
+    font-family: iransans, serif !important;
+}
+
+h3 {
+    font-family: iransans, serif !important;
+}
+
+h4 {
+    font-family: iransans, serif !important;
+}
+
+h5 {
+    font-family: iransans, serif !important;
+}
+
+.square {
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.yellow-bg {
+    background: #ffca04;
+    color: white;
+}
+
+.blue-bg {
+    background: #2bade3;
+    color: white;
+}
+
+.red-bg {
+    background: #eb2227;
+    color: white;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 1rem;
+    font-size: 2.5vw;
+}
+
+.card > .card-body {
+    direction: rtl !important;
+}
