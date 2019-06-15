@@ -22,6 +22,14 @@ h5 {
     font-family: iransans, serif !important;
 }
 
+.rtl {
+    direction: rtl;
+}
+
+.product-row-container {
+    padding: 0 8rem;
+}
+
 .square {
     height: 0;
     padding-bottom: 100%;
@@ -30,22 +38,7 @@ h5 {
     overflow: hidden;
 }
 
-.yellow-bg {
-    background: #ffca04;
-    color: white;
-}
-
-.blue-bg {
-    background: #2bade3;
-    color: white;
-}
-
-.red-bg {
-    background: #eb2227;
-    color: white;
-}
-
-.content {
+.square-content {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -54,6 +47,109 @@ h5 {
     font-size: 2.5vw;
 }
 
+.square-number {
+    border: 1px white solid;
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    top: 10px;
+    right: 10px;
+}
+
+.square-number > p {
+    position: relative;
+    top: 25%;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.yellow-bg {
+    background: #ffca03;
+    color: black;
+}
+
+.light-blue-bg {
+    background: #c7dfea;
+}
+
+.blue-bg {
+    background: #8fc6e6;
+    color: black;
+}
+
+.red-bg {
+    background: #f27373;
+    color: black;
+}
+
+ul > li {
+    list-style: none;
+}
+
 .card > .card-body {
     direction: rtl !important;
 }
+
+/* middle section of page --> right image, left quote */
+.feature-quote {
+    padding: 4rem 7rem 4rem 14rem;
+}
+
+.feature-quote > p {
+    font-size: 0.9rem;
+    line-height: 27px
+}
+
+.feature-list {
+    padding: 0 7rem 0 3rem;
+    direction: rtl;
+}
+
+.feature-list h4 {
+    font-weight: bold;
+}
+
+.feature-list p::before {
+    content: 'check_circle_outline';
+    font-family: "Material Icons", serif;
+    font-size: 2.5rem;
+    padding-left: 5px;
+    font-weight: normal;
+    visibility: hidden;
+}
+
+.feature-list h4::before {
+    content: 'check_circle_outline';
+    font-family: "Material Icons", serif;
+    font-size: 2.5rem;
+    padding-left: 5px;
+    font-weight: normal;
+}
+
+#twitter:hover {
+    background: #1ab2e8;
+}
+
+#linkedin:hover {
+    background: #0077b5;
+}
+
+#instagram:hover {
+    background: black;
+}
+
+@media (max-width: 1200px) {
+    .feature-quote {
+        padding: 3rem;
+    }
+
+    .product-row-container {
+        padding: 0 2rem;
+    }
+
+    .feature-list {
+        padding: 3rem;
+    }
+}
+
