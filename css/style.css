@@ -69,8 +69,8 @@ h5 {
 }
 
 .yellow-bg {
-    background: #ffca03;
-    color: black;
+    background: #ffcb08;
+    color: white;
 }
 
 .light-blue-bg {
@@ -78,13 +78,13 @@ h5 {
 }
 
 .blue-bg {
-    background: #8fc6e6;
-    color: black;
+    background: #00aeef;
+    color: white;
 }
 
 .red-bg {
-    background: #f27373;
-    color: black;
+    background: #ed1c24;
+    color: white;
 }
 
 ul > li {
