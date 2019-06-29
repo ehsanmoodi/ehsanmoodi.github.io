@@ -27,15 +27,15 @@
 
 <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
     <div class="container">
-        <div class="navbar-translate">
+        <div class="navbar-translate rtl">
             <a class="navbar-brand p-0" href="#">
-                <img src="images/logo-asia.png" alt="logo">
+                <img id="navbar-logo" src="images/logo-asia.png" alt="logo" width="110" height="58">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="sr-only">Toggle navigation</span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon yellow-bg"></span>
+                <span class="navbar-toggler-icon blue-bg"></span>
+                <span class="navbar-toggler-icon red-bg"></span>
             </button>
         </div>
         <div class="collapse navbar-collapse">
@@ -67,7 +67,7 @@
                 </li>
                 <li class="nav-item">
                     <a href="#products-section" class="nav-link">
-                        محصولات <i class="material-icons">apps</i>
+                        خدمات <i class="material-icons">apps</i>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -85,7 +85,9 @@
         <div class="row">
             <div class="col-md-8 ml-auto mr-auto">
                 <div class="brand text-center">
-                    <h2>مهرایان پایتخت</h2>
+                    <h2>سامانه آموزش مجازی
+                        و
+                        ویدئو کنفرانس</h2>
                     <h5>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</h5>
                 </div>
             </div>
@@ -98,83 +100,61 @@
     <div id="products-section" class="container">
         <div class="section section-basic ml-auto mr-auto">
             <!--****************************** PRODUCTS SECTION **************************-->
-            <h3 class="text-center mb-5">محصولات</h3>
-            <div class="row product-row-container" dir="rtl">
+            <div class="row product-row-container justify-content-center" dir="rtl">
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card" dir="rtl">
-<!--                        style="background: #0b3251 !important;" -->
-                        <div class="card-header text-center p-0">
-                            <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card bmd-card-raised" dir="rtl" style="margin-bottom: 74px;">
+                        <!--                        style="background: #0b3251 !important;" -->
+                        <div class="card-header text-center pt-5 pb-5 text-white" style="background: #00aeef;">
+                            <!--                            <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">-->
+                            <i class="fas fa-users fa-3x"></i>
                         </div>
                         <div class="card-body text-center" dir="rtl">
-                            <h5>لورم ایپسوم</h5>
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <h4>برگزاری کلاس‌‌های آنلاین و ویديو کنفرانس</h4>
+                        </div>
+                    </div>
+                    <div class="card bmd-card-raised" dir="rtl">
+                        <!-- Style="background: #0b3251 !important;" -->
+                        <div class="card-header text-center pt-5 pb-5 text-white" style="background: #ed1c24 !important;">
+                            <!-- <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">-->
+                            <i class="fas fa-microphone fa-3x"></i>
+                            <i class="fas fa-video fa-3x mr-2 ml-2"></i>
+                            <i class="fas fa-keyboard fa-3x"></i>
+                        </div>
+                        <div class="card-body text-center" dir="rtl">
+                            <h4>برگزاری تماس‌های دو نفره صوتی، تصویری و متنی</h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card" dir="rtl">
-                        <!--                        style="background: #0b3251 !important;" -->
-                        <div class="card-header text-center p-0">
-                            <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card bmd-card-raised" dir="rtl">
+                        <div class="card-header text-center pt-5 pb-5 text-white" style="background: #ffcb08;">
+                            <i class="fas fa-dollar-sign fa-3x"></i>
                         </div>
                         <div class="card-body text-center" dir="rtl">
-                            <h5>لورم ایپسوم</h5>
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                        </div>
-                    </div>
-                </div>
+                            <table class="table table-responsive text-center" style="width: 100%;">
+                                <tr><th>جدول هزینه</th></tr>
+                                <tr>
+                                    <td>برگزاری جلسات آنلاین</td>
+                                </tr>
+                                <tr>
+                                    <td>امکان تماس صوتی و تصویری</td>
+                                </tr>
+                                <tr>
+                                    <td>پنل کاربری رایگان</td>
+                                </tr>
+                                <tr>
+                                    <td>ساعتی ۸۵۰۰۰ ریال</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <button class="btn btn-success">ثبت نام</button>
+                                    </td>
+                                </tr>
+                            </table>
 
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card" dir="rtl">
-                        <!--                        style="background: #0b3251 !important;" -->
-                        <div class="card-header text-center p-0">
-                            <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center" dir="rtl">
-                            <h5>لورم ایپسوم</h5>
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card" dir="rtl">
-                        <!--                        style="background: #0b3251 !important;" -->
-                        <div class="card-header text-center p-0">
-                            <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center" dir="rtl">
-                            <h5>لورم ایپسوم</h5>
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card" dir="rtl">
-                        <!--                        style="background: #0b3251 !important;" -->
-                        <div class="card-header text-center p-0">
-                            <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center" dir="rtl">
-                            <h5>لورم ایپسوم</h5>
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card" dir="rtl">
-                        <!--                        style="background: #0b3251 !important;" -->
-                        <div class="card-header text-center p-0">
-                            <img src="images/IMG-20190521-WA0000.jpg" class="img-fluid" alt="">
-                        </div>
-                        <div class="card-body text-center" dir="rtl">
-                            <h5>لورم ایپسوم</h5>
-                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+                            <small>تماس‌های متنی رایگان خواهد بود.</small>
                         </div>
                     </div>
                 </div>
@@ -198,11 +178,11 @@
         </div>
 
 <!--        <h3 class="text-center pt-5"><b>لورم ایپسوم</b></h3>-->
-        <div class="row">
-            <div class="col-lg-6 col-sm-6 p-0">
+        <div class="row mt-5">
+            <div class="col-lg-6 col-md-6 col-sm-12 p-0">
                 <img src="images/IMG-20190521-WA0001.jpg" class="img-fluid" alt="skype-mobile">
             </div>
-            <div class="col-lg-6 col-sm-6 pt-5 text-right feature-list">
+            <div class="col-lg-6 col-md-6 col-sm-12 pt-5 text-right feature-list">
                 <div class="border-bottom feature-list-box">
                     <h4 class="d-flex">Skype for business</h4>
                     <p class="d-flex">این سرویس از بستر قدرتمند Skype for business جهت ارائه خدمات به مشتریان استفاده می‌کند.</p>
@@ -227,15 +207,20 @@
     <div  id="options" class="container-fluid" style="margin-top: 5rem;" dir="rtl">
         <h3 class="text-center mb-5">امکانات سامانه آموزش مجازی و ویدئو کنفرانس</h3>
         <div class="row">
-            <div class="col-sm-6 col-lg-3 blue-bg p-0">
+            <div class="col-sm-6 col-lg-3 red-bg p-0">
                 <div class="square">
                     <div class="square-number">
                         <p>1</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fas fa-mobile"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fas fa-mobile"></i>
                         <h3>سامانه‌ای در همه جا</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            این امکان وجود دارد که همه افراد بتوانند با هر ابزار هوشمند ممکن در جلسات سامانه شرکت کرده و از امکانات آن استفاده نمایند بنابراین فرقی نمی‌کند که شما از یک تلفن همراه یا تبلت اندرویدی استفاده میکنید و یا از وسیله ای با سیستم عامل ios بهره می‌برید و یا آن که در خانه هستید و از طریق لپ تاپ و یا رایانه خود میخواهید در جلسات شرکت کنید
+                        </p>
                     </div>
                 </div>
             </div>
@@ -244,10 +229,15 @@
                     <div class="square-number">
                         <p>2</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fab fa-accessible-icon"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fab fa-accessible-icon"></i>
                         <h3>پشتیبانی همیشگی</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            یکی از مشکلات همیشگی استفاده کنندگان از نرم افزارهای ارتباط آنلاین، نحوه راهنمایی و پشتیبانی از کاربران جهت هدایت ایشان به جلسات و کلاس هاست. ما این مشکل را از طریق تیم پشتیبانی مجرب با پشتیبانی همیشگی حل نمودیم؛ به گونه ای که پشتیبانان سامانه هم به صورت برخط و هم به صورت تلفنی در خدمت کاربران هستند
+                        </p>
                     </div>
                 </div>
             </div>
@@ -256,10 +246,15 @@
                     <div class="square-number">
                         <p>3</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fas fa-shield-alt"></i>
                         <h3>امنیت</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            یکی از دغدغه های همیشگی مدیران شبکه های سازمانی امنیت داده ها و عدم افشای اطلاعات مهم سازمانی است. سامانه آموزش مجازی و ویدئو کنفرانس از طریق ارائه خدمات در بستر امن شبکه ملی، استفاده از رمزگذاری در بالاترین سطح ممکن و همچنین استفاده از ساختار ابری در شبکه سرویس دهنده های خود امنیت بالایی را برای کاربران خود ارائه می نماید
+                        </p>
                     </div>
                 </div>
             </div>
@@ -268,10 +263,15 @@
                     <div class="square-number">
                         <p>4</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fas fa-dolly-flatbed"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fas fa-dolly-flatbed"></i>
                         <h3>شخصی‌سازی</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            یکی از امکانات جالب در سامانه امکان شخصی سازی پنل کاربری می باشد به گونه‌ای که مشتریان ما قادر خواهند بود صفحات ثبت نام اختصاصی خود را برای کاربران خود ساخته و یا حتی از نام و برند خود در صفحات پنل کاربری استفاده نمایند حتی مشتریان ما این امکان را خواهند داشت که از درگاه پرداخت بانکی خود اقدام به اخذ هزینه های مورد نیاز از کاربران خود نمایند.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -280,10 +280,15 @@
                     <div class="square-number">
                         <p>5</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fab fa-envira"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fab fa-envira"></i>
                         <h3>برگزاری جلسات با حداقل هزینه</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            یکی از ویژگی های جالب توجه در سامانه آموزش مجازی و ویدئو کنفرانس هزینه بسیار مناسب برگزاری جلسات و همایشهای برخط میباشد این مسئله به دلیل آن است که برای ما رضایت مشتریان در اولویت قرار داشته به گونه ای که معتقدیم بهترین راهبرد برای تجارتی منصفانه کاهش هزینه های وارد بر کاربران و در عین حال بالا بردن تعداد مشتریان است
+                        </p>
                     </div>
                 </div>
             </div>
@@ -292,10 +297,15 @@
                     <div class="square-number">
                         <p>6</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fab fa-ello"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fab fa-ello"></i>
                         <h3>کاربری آسان</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            یکی از ویژگی های سامانه آموزش مجازی و ویدئو کنفرانس رابط کاربری آسان آن است به گونه ای که همه کاربران با هر سطح توانایی در استفاده از سیستم های هوشمند خواهند توانست در جلسات شرکت کرده و یا در جلسات ارائه داشته باشند.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -304,10 +314,15 @@
                     <div class="square-number">
                         <p>7</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fab fa-whmcs"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fab fa-whmcs"></i>
                         <h3>امکانات بسیار در جلسات</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            سامانه آموزش مجازی و ویدئو کنفرانس، امکاناتی همچون تخته سفید، ارائه پاورپوینت، به اشتراک گذاری صفحه دسکتاپ و یا به اشتراک گذاری نرم افزاری خاص، امکان نظرسنجی و یا حتی سوال از کاربران را ارائه می نماید. همچنین صاحبان جلسات می‌توانند کاربران خود را مدیریت کرده آنها را به جلسات راهنمایی کرده و یا از جلسات بیرون بیاندازند و یا حتی اجازه صحبت کردن به آنها دهند.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -316,10 +331,15 @@
                     <div class="square-number">
                         <p>8</p>
                     </div>
+                    <!--<div class="square-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>-->
                     <div class="square-content">
+                        <i class="fas fa-solar-panel"></i>
                         <h3>پنل کاربری با امکانات بسیار</h3>
-                        <p>لورم ایپسوم متن ساختگی</p>
-                        <p>لورم ایپسوم متن ساختگی</p>
+                        <p>
+                            چنانچه قبلاً بیان شد به تمامی کاربران سامانه اعم از صاحبان پنل و یا اعضا امکان دسترسی به پنل کاربری داده خواهد شد به گونه‌ای که هر کاربر بر اساس سطح دسترسی خواهد توانست از امکانات مختلف سامانه همچون امکان بارگذاری و یا دریافت فایل های تصویری و ویدیویی، امکان برگزاری آزمون های آنلاین، امکان زمانبندی جلسات و دریافت فهرست جلسات دعوت شده، امکان مدیریت اعضا و یا حتی حضور و غیاب آن ها، استفاده نماید
+                        </p>
                     </div>
                 </div>
             </div>
@@ -360,14 +380,14 @@
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="row justify-content-center" style="padding: 5%; ">
-                    <button type="button" id="twitter" class="btn btn-default btn-fab btn-round">
-                        <i class="fa fa-twitter"></i>
+                    <button type="button" id="twitter" class="btn btn-default btn-fab btn-round justify-content-center">
+                        <i class="fab fa-twitter"></i>
                     </button>
-                    <button type="button" id="instagram" class="btn btn-default btn-fab btn-round mr-2 ml-2">
-                        <i class="fa fa-instagram"></i>
+                    <button type="button" id="instagram" class="btn btn-default btn-fab btn-round mr-2 ml-2 justify-content-center">
+                        <i class="fab fa-instagram"></i>
                     </button>
-                    <button type="button" id="linkedin" class="btn btn-default btn-fab btn-round">
-                        <i class="fa fa-linkedin"></i>
+                    <button type="button" id="linkedin" class="btn btn-default btn-fab btn-round justify-content-center">
+                        <i class="fab fa-linkedin-in"></i>
                     </button>
                 </div>
             </div>
@@ -392,6 +412,21 @@
 
 <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 <script src="./js/material-kit.js?v=2.0.5" type="text/javascript"></script>
+
+<script>
+    $(document).ready(function () {
+        let brandImage = 'images/logo-asia.png';
+        let brandImageScroll = 'images/logo.png';
+
+        $(window).scroll(function () {
+            if ($(document).scrollTop() < 50) {
+                $('.navbar-brand img').attr('src', brandImage);
+            } else {
+                $('.navbar-brand img').attr('src', brandImageScroll);
+            }
+        })
+    })
+</script>
 
 </body>
 
