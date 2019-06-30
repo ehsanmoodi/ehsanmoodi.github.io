@@ -73,6 +73,23 @@ h5 {
     color: white;
 }
 
+.square-number-yellow-bg {
+    border: 1px #343a40 solid;
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    top: 10px;
+    right: 10px;
+}
+
+.square-number-yellow-bg > p {
+    position: relative;
+    top: 25%;
+    font-size: 1.5rem;
+    color: #343a40;
+}
+
 .square-icon {
     border: 1px white solid;
     position: absolute;
@@ -92,7 +109,7 @@ h5 {
 
 .yellow-bg {
     background: #ffcb08 !important;
-    color: white;
+    color: #343a40;
 }
 
 .light-blue-bg {
